@@ -70,10 +70,10 @@
 
         navigation {
             bindings = <
-&trans     &kp LA(V)          &kp UP_ARROW    &trans                &trans     &trans    &trans          &trans        &trans          &trans           &trans  &trans
-&kp LC(A)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LC(E)  &trans    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans     &kp LA(LESS_THAN)  &kp LC(V)       &kp LA(GREATER_THAN)  &trans     &trans    &trans          &bt BT_PRV    &bt BT_NXT      &trans           &trans  &trans
-                                              &trans                &kp LCTRL  &trans    &trans          &kp RCTRL     &trans
+&trans     &kp LA(V)          &kp UP_ARROW    &trans                &trans     &trans    &trans          &trans           &trans          &trans           &trans  &trans
+&kp LC(A)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LC(E)  &trans    &kp LEFT_ARROW  &kp UP_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans     &kp LA(LESS_THAN)  &kp LC(V)       &kp LA(GREATER_THAN)  &trans     &trans    &trans          &trans           &trans          &trans           &trans  &trans
+                                              &trans                &kp LCTRL  &trans    &trans          &lt 4 RIGHT_ALT  &trans
             >;
         };
 
@@ -83,6 +83,15 @@
 &trans  &trans  &kp LA(PERCENT)  &trans        &trans             &trans             &switch_buffer  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LA(X)        &kp LC(C)     &trans             &trans             &cycle_window   &trans  &trans  &trans  &trans  &trans
                                  &trans        &trans             &trans             &trans          &trans  &trans
+            >;
+        };
+
+        utils {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &bt BT_PRV  &bt BT_NXT  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
